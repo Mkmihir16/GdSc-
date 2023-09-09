@@ -1,0 +1,504 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body.white-mode {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  body.dark-mode {
+    background-color: #000;
+    color: #fff;
+  }
+  .dark-mode h1{
+    color: #fff; 
+  }
+  .white-mode h1{
+    color: #000;
+  }
+
+
+
+.navbar {
+    padding: 1rem 1rem;
+    box-shadow: 2px 1px 5px #888888;
+}
+
+.logogd {
+    display: inline-flex;
+}
+.logogd
+{
+    overflow: hidden;
+}
+.logogd img
+{
+    height: 2rem ;
+    transition: all ease 1s;
+}
+.logogd:hover img{
+    scale: 1.2;
+}
+.logogd p {
+    position: relative;
+    top: 4px;
+    padding-left: 1rem;
+    font-size: 21px;
+    color: #868686;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.lists {
+    display: inline-flex;
+    justify-content: end;
+}
+#toggle-btn{
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+}
+.lists ul {
+    position: relative;
+    left: 31rem;
+    top: -10px;
+}
+.lists ul :hover
+{
+    cursor: pointer;
+}
+
+.lists ul li {
+    font-size: 21px;
+    padding-left: 2rem;
+    display: inline-flex;
+    list-style: none;
+    color: #868686;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heropart {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    display: inline-flex;
+    justify-content: center;
+}
+.container
+{
+    position: relative;
+}
+.mid img {
+    left: 0.5rem;
+    position: absolute;
+    top: 10rem;
+    z-index: 1;
+}
+.mid img:hover{
+    cursor: text;
+}
+.mid1 img
+{  
+    top: 3rem;
+    position: relative;
+    left: 74rem;
+}
+.mid2 img
+{
+    position: relative;
+    left: 46rem;
+    top: -4rem;
+    z-index: 3;
+}
+.par {
+    font-weight: bolder;
+    color: #646464;
+    font-size: 34px;
+    left: 37rem;
+    top: -4rem;
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.par p::selection{
+    color: rgb(253, 71, 5);
+    background-color: white;
+}
+.imageofhero
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.imageofhero img{
+    display: inline-flex;
+    position: relative;
+    width: 48rem;
+}
+.parag
+{
+    
+    display: flex;
+    justify-content: center;
+}
+.parag p
+{     padding-top: 1rem;
+    text-align: center;
+    font-size: 20px;
+    width: 40rem;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+.btn button{
+    background-color: rgb(58, 58, 255);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #4285F4;
+    font-family: 'Exo 2', sans-serif;
+    transition: all ease 0.2s;
+}
+.btn button:active
+{
+    scale: 0.9;
+}
+.btn button:hover
+{
+    cursor:pointer;
+}
+.btn{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.btn button :hover
+{
+    cursor: pointer;
+}
+.arrow
+{
+    display: flex;
+    justify-content: center;
+}
+.arrow ul li 
+{
+   list-style: none;
+}
+.headin
+{   
+    color: #646464;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.ourmission h1
+{
+    color: #868686;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 3rem;
+}
+.hamburg
+{
+    width: 2rem;
+    height: 2rem;
+}
+.border
+{    display: inline-flex;
+    justify-content: center;
+    width: 9rem;
+    height: 3px;
+    background-color:#4285F4;
+    /* margin-right: 42px; */
+    margin-left: 38rem;
+}
+.imgright{
+display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+.imgright p{
+    display: flex;
+    width: 32rem;
+    font-size: 1.7rem;
+    align-items: center;
+    color: #5F5F5F;
+    padding-right: 2rem;
+}
+.imgright img{
+   display: inline;
+    height: 18rem;
+    
+}
+.ourperspective h1
+{
+    color: #868686;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 3rem;
+}
+.border1
+{    display: inline-flex;
+    justify-content: center;
+    width: 9rem;
+    height: 3px;
+    background-color:
+    #0F9D56;
+    /* margin-right: 42px; */
+    margin-left: 38rem;
+}
+.imgright1 p{
+    display: flex;
+    width: 40rem;
+    font-size: 1.7rem;
+    align-items: center;
+    color: #5F5F5F;
+    
+}
+.imgright1 img{
+   display: inline;
+    height: 18rem;
+    padding-right: 2rem;
+}
+.imgright1{
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-top: 5rem;
+}
+.heropart3
+{
+    display: inline-flex;
+}
+.technologies
+{
+    display: inline-flex;
+    justify-content: center;
+}
+.brdr
+{   
+     display: inline-flex;
+    justify-content: center;
+    width: 21rem;
+    height: 3px;
+    background-color: #FF6060;
+    margin-left: 11rem;
+}
+.technologies p{
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #5F5F5F;
+    position: relative;
+    left: 4rem;
+    font-size: 2rem;
+    top: -1.5rem;
+    height: fit-content;
+}
+.tech2
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.domain
+{   padding-top: 1.4rem;
+    display: flex;
+    position: absolute;
+    width: max-content;
+    left: 30rem;
+    color: #646464;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+}
+.threeimages
+{   padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.firstimg
+{
+    overflow: hidden;
+}
+.firstimg img
+{
+    height: 15rem ;
+    transition: all ease 1s;
+}
+.firstimg:hover img{
+    scale: 1.2;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+.wrapper {
+  padding-bottom: 2rem;
+  max-width: 75%;
+  margin: auto;
+}
+
+.wrapper > p,
+.wrapper > h1 {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.wrapper > h1 {
+    color: #5F5F5F;
+    
+  letter-spacing: 3px;
+}
+
+.accordion {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  cursor:pointer;
+  font-size: 1.2rem;
+  padding: 0.3rem 1rem;
+  outline: none;
+  border:4px solid grey;
+  display: flex;
+  border-radius: 30px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin: auto;
+  
+}
+
+.accordion i {
+  padding-right: 1rem;
+  color: red;
+}
+
+.active,
+.accordion:hover {
+  background-color: #f1f7f5;
+}
+.pannel {
+  padding: 1rem 0rem 0.5rem 0rem;
+  background-color: white;
+  overflow: hidden;
+  display: none;
+}
+.pannel p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  line-height: 1.4;
+  border:4px solid grey;
+  border-radius: 30px;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.faq {
+  border-radius: 1px solid rgba(121, 118, 118, 0.2);
+  margin: 10px 0;
+}
+.faq.active {
+  border: none;
+}
+footer
+{
+    height:441px;
+    
+    background-color:white;
+    border-top-left-radius: 95px;
+    border-top-right-radius: 95px;
+    background: linear-gradient(90deg,rgb(248 249 251),rgb(105 184 255),rgb(72 166 253));
+}
+.foot{
+   display: flex;
+   align-items: center;
+   align-content: center;
+   
+}
+.right {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 12rem;
+    left: 6rem;
+    }
+    .right p{
+        padding-top: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #646464;
+
+    }
+    .right > p{
+        font-weight: bold;
+    }
+
+
+
+.right11 {
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 9rem;
+    left: 14rem;
+    }
+    .right11 p{
+        padding-top: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+     width:30rem;
+    }
+    .right112 {
+        display: flex;
+        
+        position: relative;
+        top: 13rem;
+      right: 19rem;
+        
+        }
+        .right112 p{
+            padding-top: 1rem;
+            padding-left: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+         width:30rem;
+        }
+      
+    
+        .liimg
+        {
+            height: 4rem;
+            width: 6rem;
+        } 
+        .hr {
+            position: relative;
+            top: 15rem;
+            margin: 0 4rem;
+            display: inline-flex;
+            background-color: white;
+            height: 2px;
+            width: 77rem;
+            border-radius: 5px;
+        }
+        .last-para {
+            font-family: Arial;
+            position: relative;
+            left: 34rem;
+            bottom: -17rem;
+            display: inline-flex;
+        color: #646464;
+    }
